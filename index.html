@@ -1,52 +1,66 @@
-<!-- HOME WORK #1 -->
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Home Work # 1 HTML/CSS Layout</title>
-  <link rel="stylesheet" type="text/css" href="floats.css">
+    <meta charset="utf-8" />
+        <title>Corrected Home Work</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="maincss.css" />
+    <script src="main.js"></script>
 </head>
-
 <body>
-<div id="canvas">
-  <header class="incommon">
-    header
-  </header>
 
-  <section id="nav" class="incommon">
-    nav
-  </section>
-</div>
+<header>
+    <section id="header">
+           <div class="HeadNav">
+                <h1>Header</h1>
+            </div>
+    </section>
+</header>
 
-  <div>
+<section id="nav">
+        <div class="HeadNav">
+            <h1>Nav</h1>
+        </div>
+</section>
+<br>
+<section id="SectionAside">
+    <div class="sidebyside">
+        <h1>Section</h1>
+            <div id="article">
+                Article
+                <div class="h1p">
+                    <h3>h1,h2,h3</h3>
+                </div>            
+                    <div class="h1p">
+                        <h3>p</h3>
+                    </div>
+            </div>
 
-  <section id="leftmain" class="incommon">
-    Section !!
-        
-        <Section id="insidebox" class="incommon">
-        Article
-           <Section id="inside2">h1,h2,h3</Section>
-           <section id="inside3"> P</section>
     
     
-        </Section>
+    
+    
+    </div>
+
+    <div class="sidebyside" id="rightdiv">
+            <h1>Aside</h1>
+    </div>
 
 </section>
 
-  <section id="rightmain">
-  Aside
-  </section>
+
+<section class="clearfixhack"></section>
+
+<section class="HeadNav">
+    <div>
+    <h2>Footer</h2>
+    </div>
+</section>
 
  
-</div>
-  
 
-  <footer>
-    &lt;footer&gt; #ccc
-  </footer>
 
-</div>
+
 </body>
-
 </html>
